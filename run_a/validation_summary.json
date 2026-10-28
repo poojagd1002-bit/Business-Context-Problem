@@ -1,0 +1,34 @@
+{
+  "seed": 20261022,
+  "scale": "starter",
+  "counts": {
+    "Supplier": 100,
+    "PurchaseOrder": 100,
+    "POLine": 201,
+    "Acknowledgement": 79,
+    "PromiseDate": 79,
+    "ChangeRequest": 72,
+    "Approval": 50,
+    "InventoryPlan": 201,
+    "ProductionOrder": 201,
+    "Notification": 64
+  },
+  "acknowledgement_and_change_events": 151,
+  "ground_truth_rows": 156,
+  "validation_errors": [],
+  "labelled_anomalies": 3,
+  "csv_sha256": {
+    "Acknowledgement.csv": "29d13ecfd2c3ec0a18c1f7d562c4c941c216568740ddd634fef8fd3739d7a110",
+    "Approval.csv": "be746becf001efc28eac530749fde43b5343cd5403ac4171d8f106fc1d4df12a",
+    "ChangeRequest.csv": "091850c0f98ff4d97e6bda28cb64b42ac51f3e8524ead0549d3c5489b91af751",
+    "ground_truth.csv": "6b9d4778eccfdd5e0e354c9036ab81884ea3769c5d59f16645e374e7e96f92d8",
+    "InventoryPlan.csv": "2d21707f2e25522ff661f4fca198b11bf2b42f2c07978227a1eb304dcb2a8c2d",
+    "Notification.csv": "c2618ca6e4ac5846331132d6a7920188cdcfe0ab794b5138c76cdf541b42aaf1",
+    "POLine.csv": "1edecd08672a699a1225239a80fae6371cf7db4cb7b60a66dee453d418f51098",
+    "ProductionOrder.csv": "3281544b670b24f98eadfe6ef6ec38d02086d3359f31b666ee6d4c6dbf48ff34",
+    "PromiseDate.csv": "50510a7f05a4794bb967c288307efec0c118f5194634aa40e4c65f2d2f25d612",
+    "PurchaseOrder.csv": "d49d1fae069f4212c7bcff7af7e023a018d78367c925089ca1118cf9e526b2c5",
+    "Supplier.csv": "0570d2381a91142255d3c51323f9cc0563ffc7462a33426d694f86fc595111af"
+  },
+  "reproducibility_note": "Run twice with same seed and scale; compare CSV SHA-256 values."
+}

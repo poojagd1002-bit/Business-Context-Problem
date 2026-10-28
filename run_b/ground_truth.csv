@@ -1,0 +1,157 @@
+record_id,issue_type,ground_truth,expected_decision,rule
+ACK-PO-2026-000071-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000052-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000043-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000050-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000046-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000033-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000039-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000042-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000060-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000056-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000009-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000083-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000071-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000054-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000066-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000023-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000020-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000050-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000090-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000076-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000005-000001,NONE,REJECTED,REJECTED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000051-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000010-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000048-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000047-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000010-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000090-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000093-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000090-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000003-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000098-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000008-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000075-000001,NONE,REJECTED,REJECTED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000031-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000034-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000046-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000024-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000089-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000026-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000014-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000004-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000078-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000056-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000022-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000066-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000017-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000058-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000010-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000072-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000027-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000078-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000072-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000072-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000100-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000012-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000087-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000092-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000097-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000055-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000034-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000010-04,WRONG_PO_LINE,INVALID_FOREIGN_RELATION,QUARANTINE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000011-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000072-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000052-000002,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000078-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000074-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000042-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000005-000002,NONE,REJECTED,REJECTED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000018-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000004-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000017-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000096-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000034-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000048-000002,NONE,REJECTED,REJECTED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000055-000002,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000066-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000031-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000066-04,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000068-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000086-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000096-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000045-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000053-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000046-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000090-04,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000084-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000003-000002,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000060-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000047-000001,NONE,REJECTED,REJECTED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000081-000001,NONE,REJECTED,REJECTED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000071-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000002-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000018-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000088-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000073-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000060-000002,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000064-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000090-000001,NONE,REJECTED,REJECTED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000097-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000097-000002,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000076-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000099-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000023-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000008-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000051-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000051-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000006-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000045-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000044-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000028-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000090-000002,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000057-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000055-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000092-000002,NONE,REJECTED,REJECTED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000072-000002,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000095-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000036-000001,NONE,REJECTED,REJECTED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000054-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000059-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000053-000002,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000021-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000099-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000055-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000046-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000045-000001,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000091-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000011-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000009-000002,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000063-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000004-000002,NONE,APPROVED,APPROVED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000077-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000021-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000085-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000009-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000080-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000016-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000087-02,WRONG_PO_LINE,INVALID_FOREIGN_RELATION,QUARANTINE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000049-000001,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000096-000002,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000004-02,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000052-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000043-000001,NONE,APPROVED,APPROVED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000035-000001,NONE,REJECTED,REJECTED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000100-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000035-000002,NONE,REJECTED,REJECTED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000041-000001,NONE,APPROVED,APPROVED,Approval required when price change exceeds threshold 5; projected supply changes only when approved or approval is not required.
+CHG-PO-2026-000034-000001,NONE,REJECTED,REJECTED,Approval required when quantity change exceeds threshold 10; projected supply changes only when approved or approval is not required.
+ACK-PO-2026-000070-01,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+ACK-PO-2026-000055-03,NONE,VALID,PARTIAL_ACCEPTANCE,Wrong PO line or promise date before order date is invalid; otherwise compare accepted and rejected quantities with requested quantity.
+CHG-PO-2026-000086-000002,NONE,NOT_REQUIRED,NOT_REQUIRED,Approval required when date change exceeds threshold 3; projected supply changes only when approved or approval is not required.
+SIL-PO-2026-000001,SUPPLIER_SILENCE,EXCEPTION,FOLLOW_UP_REQUIRED,No acknowledgement received within 7 days of order date.
+SIL-PO-2026-000002,SUPPLIER_SILENCE,EXCEPTION,FOLLOW_UP_REQUIRED,No acknowledgement received within 7 days of order date.
+SIL-PO-2026-000003,SUPPLIER_SILENCE,EXCEPTION,FOLLOW_UP_REQUIRED,No acknowledgement received within 7 days of order date.
+SIL-PO-2026-000005,SUPPLIER_SILENCE,EXCEPTION,FOLLOW_UP_REQUIRED,No acknowledgement received within 7 days of order date.
+SIL-PO-2026-000007,SUPPLIER_SILENCE,EXCEPTION,FOLLOW_UP_REQUIRED,No acknowledgement received within 7 days of order date.
+CHG-PO-2026-000001-999999,UNAPPROVED_PLAN_UPDATE_ATTEMPT,BLOCK_UPDATE,DO_NOT_UPDATE_PLAN,Pending changes requiring approval must not update InventoryPlan.

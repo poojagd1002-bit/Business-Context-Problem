@@ -1,0 +1,7 @@
+{
+  "data_origin": "fully synthetic; no external datasets or personal data used",
+  "seed": 20261022,
+  "generator": "generate_data.py",
+  "generated_at": "intentionally omitted for deterministic output",
+  "external_sources": []
+}

@@ -1,0 +1,126 @@
+{
+  "Supplier": {
+    "pk": "supplier_id",
+    "fields": {
+      "supplier_id": "string, required, unique, SUP-#####",
+      "supplier_name": "string, required",
+      "country": "ISO-like 2-letter synthetic code",
+      "lead_time_days": "integer days, 1..90",
+      "risk_tier": "LOW|MEDIUM|HIGH",
+      "active": "boolean"
+    }
+  },
+  "PurchaseOrder": {
+    "pk": "po_id",
+    "fk": [
+      "supplier_id -> Supplier.supplier_id"
+    ],
+    "fields": {
+      "order_date": "ISO date",
+      "currency": "3-letter code",
+      "status": "OPEN|CLOSED|CANCELLED",
+      "buyer_id": "synthetic buyer identifier"
+    }
+  },
+  "POLine": {
+    "pk": "po_line_id",
+    "fk": [
+      "po_id -> PurchaseOrder.po_id"
+    ],
+    "fields": {
+      "line_no": "positive integer unique within PO",
+      "requested_qty": "positive EA",
+      "unit_price": "positive INR per EA",
+      "requested_delivery_date": "ISO date >= order date",
+      "uom": "EA"
+    }
+  },
+  "Acknowledgement": {
+    "pk": "acknowledgement_id",
+    "fk": [
+      "po_id -> PurchaseOrder.po_id",
+      "po_line_id -> POLine.po_line_id"
+    ],
+    "fields": {
+      "revision_no": "positive integer",
+      "accepted_qty": "non-negative EA",
+      "rejected_qty": "non-negative EA",
+      "promised_date": "ISO date >= order date",
+      "status": "RECEIVED",
+      "issue_type": "optional anomaly label"
+    }
+  },
+  "PromiseDate": {
+    "pk": "promise_date_id",
+    "fk": [
+      "acknowledgement_id -> Acknowledgement.acknowledgement_id",
+      "po_line_id -> POLine.po_line_id"
+    ],
+    "fields": {
+      "promised_date": "ISO date",
+      "effective_from": "ISO date",
+      "effective_to": "optional ISO date",
+      "revision_no": "positive integer"
+    }
+  },
+  "ChangeRequest": {
+    "pk": "change_request_id",
+    "fk": [
+      "po_id -> PurchaseOrder.po_id",
+      "po_line_id -> POLine.po_line_id"
+    ],
+    "fields": {
+      "change_type": "QUANTITY|DATE|PRICE",
+      "status": "PENDING|APPROVED|REJECTED|NOT_REQUIRED",
+      "approval_required": "boolean",
+      "change_pct_or_days": "derived numeric"
+    }
+  },
+  "Approval": {
+    "pk": "approval_id",
+    "fk": [
+      "change_request_id -> ChangeRequest.change_request_id"
+    ],
+    "fields": {
+      "decision": "APPROVED|REJECTED",
+      "approver_id": "synthetic ID",
+      "decision_date": "ISO date",
+      "reason": "string"
+    }
+  },
+  "InventoryPlan": {
+    "pk": "inventory_plan_id",
+    "fk": [
+      "po_line_id -> POLine.po_line_id"
+    ],
+    "fields": {
+      "projected_qty": "non-negative EA",
+      "projected_date": "ISO date",
+      "last_approved_change_id": "optional ChangeRequest ID",
+      "plan_version": "positive integer"
+    }
+  },
+  "ProductionOrder": {
+    "pk": "production_order_id",
+    "fk": [
+      "po_line_id -> POLine.po_line_id"
+    ],
+    "fields": {
+      "required_qty": "positive EA",
+      "need_by_date": "ISO date",
+      "status": "PLANNED|RELEASED|COMPLETED"
+    }
+  },
+  "Notification": {
+    "pk": "notification_id",
+    "fk": [
+      "po_id -> PurchaseOrder.po_id",
+      "po_line_id -> POLine.po_line_id"
+    ],
+    "fields": {
+      "recipient_role": "PLANNER|LOGISTICS_ANALYST|OPERATIONS_MANAGER",
+      "notification_type": "SUPPLIER_SILENCE|APPROVED_CHANGE",
+      "status": "SENT|FAILED"
+    }
+  }
+}
